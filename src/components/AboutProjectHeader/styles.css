@@ -1,0 +1,65 @@
+.blv-header {
+    background-color: #58AEDF;
+    padding: 10px;
+}
+
+.blv-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blv-header-nav nav {
+    display: flex;
+    align-items: center;
+}
+
+.blv-navlink {
+    color: #fff;
+    font-size: 22px;
+    margin-right: 30px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.blv-navlink:hover {
+    color: #c3c3c3;
+}
+
+.blv-header-button {
+    background-color: #006098;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px; 
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    border-radius: 10px; 
+    padding: 0 20px; 
+}
+
+.blv-header-button:hover {
+    background-color: #004477;
+    transform: scale(1.05); 
+}
+
+.blv-header-logo {
+    margin-left: 30px;
+}
+
+.blv-header-logo img {
+    width: 120px;
+}
+
+.active {
+    border-bottom: 2px solid #fff;
+}
+
+.blv-navlink-logo {
+    border-bottom: none;
+}

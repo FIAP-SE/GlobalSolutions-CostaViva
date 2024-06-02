@@ -1,0 +1,25 @@
+.blv-conteudo-background {
+    position: absolute;
+    top: 420px;
+    left: 297px;
+    width: 1157px;
+    height: 235px;
+    gap: 0px;
+    border-radius: 96px;
+    background-color: rgba(48, 48, 48, 0.4);
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+    color: white;
+    flex-direction: column;
+}
+
+.blv-conteudo-background h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.blv-conteudo-background p {
+    font-size: 1.6rem;
+}

@@ -1,0 +1,19 @@
+.blv-section-infos {
+    min-height: 429px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.blv-conteudo {
+    max-width: 700px; 
+    text-align: center; 
+    padding: 0 20px; 
+    
+}
+
+.blv-conteudo h3 {
+    font-size: 24px;
+    color: #006098;
+    margin: 50px 0 50px;
+}
