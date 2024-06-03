@@ -1,10 +1,16 @@
-import './styles.css';
+import CartCard from "../../../components/CartCard";
+import Footer from "../../../components/Footer";
+import ProjectHeader from "../../../components/ProjectHeader";
+import "./styles.css";
 
 export default function Cart() {
-
-    return (
-        <main>
-            <p>comece aqui</p>
-        </main>
-    );
+  return (
+    <>
+      <main className="center">
+        <ProjectHeader />
+        <CartCard />
+        <Footer />
+      </main>
+    </>
+  );
 }

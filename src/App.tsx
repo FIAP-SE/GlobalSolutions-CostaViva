@@ -4,6 +4,7 @@ import Problem from "./routes/AboutProject/Problem";
 import Study from "./routes/AboutProject/Study";
 import Proposal from "./routes/AboutProject/Proposal";
 import HomeProject from "./routes/Project/HomeProject";
+import Cart from "./routes/Project/Cart";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Route path="/estudos" element={<Study />} />
         <Route path="/propostas" element={<Proposal />} />
         <Route path="/projeto" element={<HomeProject />} />
+        <Route path="/carrinho" element={<Cart />} />
       </Routes>
     </Router>
   );
