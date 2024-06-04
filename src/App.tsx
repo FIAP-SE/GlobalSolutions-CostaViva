@@ -5,6 +5,7 @@ import Study from "./routes/AboutProject/Study";
 import Proposal from "./routes/AboutProject/Proposal";
 import HomeProject from "./routes/Project/HomeProject";
 import Cart from "./routes/Project/Cart";
+import PurchaseConfirmed from "./routes/Project/PurchaseConfirmed";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/propostas" element={<Proposal />} />
         <Route path="/projeto" element={<HomeProject />} />
         <Route path="/carrinho" element={<Cart />} />
+        <Route path="/compra_confirmada" element={<PurchaseConfirmed />} />
       </Routes>
     </Router>
   );
