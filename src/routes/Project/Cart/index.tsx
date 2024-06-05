@@ -6,11 +6,9 @@ import "./styles.css";
 export default function Cart() {
   return (
     <>
-      <main className="center">
         <ProjectHeader />
         <CartCard />
         <Footer />
-      </main>
     </>
   );
 }

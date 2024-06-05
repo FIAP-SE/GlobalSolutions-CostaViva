@@ -24,7 +24,7 @@ const Store: React.FC = () => {
       <p className="store-subtitle">Ao comprar nossos produtos você estará apoiando a ONG Monitoramento Mirim Costeiro</p>
       <div className="store-product-grid">
         {products.map((product, index) => (
-          <Link to={`/product/${index}`} className="store-product-link" key={index}>
+          <Link to={`/produto/${index}`} className="store-product-link" key={index}>
             <div className="store-product">
               <div className="store-photo">
                 <img src={product.image} alt={product.name} className="store-photo-img" />
