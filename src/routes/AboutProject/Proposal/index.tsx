@@ -3,13 +3,21 @@ import Footer from "../../../components/Footer";
 import AboutProjectInfos from "../../../components/AboutProjectInfos";
 
 export default function Proposal() {
+    const description = `
+        Nossa solução tecnológica pretende solucionar os problemas apresentados através de uma plataforma que promove o turismo de avistamento de baleias.\n
+        Segundo o site do Instituto Baleia Jubarte, atualmente, o turismo de observação de baleias é praticado em mais de 100 países e territórios, gerando receitas para as comunidades costeiras que excedem dois bilhões de dólares. O site também menciona que, quando praticado de forma sustentável e seguindo as normas legais, o Turismo de Observação de Baleias não impacta negativamente nem os indivíduos nem as populações das baleias-alvo.\n
+        Além disso, o contato direto da população com a majestosa presença das baleias é uma experiência inesquecível que tem o potencial de sensibilizar e transformar muitos em defensores da vida marinha, contribuindo positivamente para ações de preservação das espécies.\n
+        Por isso, através do nosso site, os usuários poderão pesquisar e descobrir exatamente os locais onde foram avistadas baleias, facilitando assim o avistamento desses gigantes mamíferos. A plataforma será alimentada pelos próprios usuários, que poderão inserir dados de avistamento em tempo real, mantendo todos os dados atualizados.\n
+        Nossa plataforma permitirá aos usuários localizar facilmente os pontos de avistamento de baleias, contribuindo para uma experiência enriquecedora e consciente. Com esta iniciativa, esperamos fomentar o turismo sustentável e reforçar a importância da preservação das baleias e seus habitats naturais.
+    `;
 
     return (
         <main>
             <AboutProjectHeader/>
             <AboutProjectInfos 
-            title={"COMO SERÁ RESOLVIDO"} 
-            description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque dolor quis enim pretium eleifend. Suspendisse sed efficitur orci. Mauris tincidunt velit lacus, eget congue orci blandit vel. Sed quis ex sit amet elit efficitur maximus. Aenean metus odio, sodales non justo eget, facilisis interdum enim. Cras nec quam blandit, accumsan urna sed, viverra sapien. Aliquam erat volutpat. Quisque consequat pulvinar eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare suscipit ex gravida congue. Integer tortor mauris, tempus nec augue eget, ullamcorper ultricies tellus. Sed ornare commodo dolor. Donec dictum leo sed ultrices cursus. Nullam faucibus lorem sed magna condimentum pulvinar. Praesent id massa vitae lorem pulvinar ultricies. Sed venenatis feugiat semper. Nam sed porttitor massa. Aliquam quis ipsum sagittis, efficitur purus a, posuere mi. Nullam quis turpis vulputate nisl tincidunt eleifend ut ut velit. Phasellus varius auctor orci sit amet pharetra. Quisque finibus vestibulum venenatis."}/>
+                title={"COMO SERÁ RESOLVIDO"} 
+                description={description}
+            />
             <Footer/>
         </main>
     );

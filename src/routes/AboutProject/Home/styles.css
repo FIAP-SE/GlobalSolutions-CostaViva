@@ -35,10 +35,11 @@
 }
 
 .blv-integrantes-nomes {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     line-height: 20px;
 }
 
 .blv-descritivo {
     margin-bottom: 20px;
+    font-weight: bold;
 }

@@ -38,9 +38,8 @@ export default function Home() {
                             Breve descritivo do projeto:
                         </p>
                         <p>
-                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, aperiam! Fuga consectetur impedit alias magni, distinctio nemo natus sit corrupti quas assumenda vero rem qui, beatae sed voluptatum exercitationem quam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, in nulla nostrum doloribus modi dolorum. Quas esse aliquid veritatis, nobis odit laudantium quidem. Earum illo labore, voluptatum ipsum perspiciatis consectetur.
+                            Nossa plataforma promove o turismo sustentável de avistamento de baleias, permitindo que usuários descubram e compartilhem em tempo real os locais de avistamento, ajudando a minimizar o impacto ambiental. Com esta iniciativa, esperamos fomentar práticas turísticas responsáveis, contribuindo para a conservação das baleias e a sustentabilidade de seus habitats naturais.
                         </p>
-
                     </div>
                 </div>
             </section>

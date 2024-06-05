@@ -17,3 +17,12 @@
     color: #006098;
     margin: 50px 0 50px;
 }
+
+.blv-section-infos a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.blv-section-infos a:hover {
+    color: darkblue;
+}
