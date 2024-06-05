@@ -1,0 +1,26 @@
+h1 {
+    color: #0FA3DB;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 400;
+    margin: 1em;
+
+}
+
+p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.4em;
+    margin-left: 22em;
+    margin-right: 22em;
+    margin-bottom: 1.5em;
+}
+
+.aboutImage {
+    display: flex;
+}
+
+img {
+    width: 100%;
+    margin: 0 auto;
+}
