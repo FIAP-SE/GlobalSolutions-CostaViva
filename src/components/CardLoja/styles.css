@@ -1,0 +1,82 @@
+.blv-loja-container {
+    border: 1px solid #000;
+    width: 280px;
+    max-height: 400px;
+    display: flex;
+    border-bottom: 1px solid #000;
+    flex-direction: column;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.blv-loja-imagem {
+    border-bottom: 3px solid black;
+    height: 280px; 
+    overflow: hidden;
+    padding: 10px;
+}
+
+.blv-loja-imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 15px 15px 0 0;
+}
+
+
+.blv-nomevalor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.blv-nomevalor p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #575757;
+}
+
+.blv-nomevalor h6 {
+    margin: 0;
+    font-size: 32px;
+    color: #575757;
+}
+
+.blv-nomevalor h6 span {
+    margin-right: 5px;
+    font-size: 25px;
+    color: #575757;
+}
+
+.blv-loja-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 960px; 
+    margin: 0 auto; 
+}
+
+.ver-toda-loja-container {
+    text-align: center;
+    margin-top: 40px; 
+}
+
+.ver-toda-loja-btn {
+    background-color: #0FA3DB;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 250px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 auto;
+}
+
+.ver-toda-loja-btn:hover {
+    background-color: #0c87b5;
+}
+
+
+
