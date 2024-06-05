@@ -9,6 +9,7 @@ import Store from "./routes/Project/Store";
 import PurchaseConfirmed from "./routes/Project/PurchaseConfirmed";
 import ProductDetails from "./routes/Project/ProductDetails";
 import About from "./routes/Project/About";
+import Register from "./routes/Project/Register";
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
         <Route path="/produto" element={<ProductDetails/>} />
         <Route path="/compra_confirmada" element={<PurchaseConfirmed />} />
         <Route path="/sobre" element={<About />} />
+        <Route path="/registrar" element={<Register />} />
       </Routes>
     </Router>
   );

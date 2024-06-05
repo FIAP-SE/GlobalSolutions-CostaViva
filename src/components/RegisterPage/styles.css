@@ -1,0 +1,60 @@
+main {
+    background-color: #006098;
+}
+
+h1 {
+    color: white;
+    font-size: 2.5em;
+}
+
+p {
+    color: white;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.register {
+    margin-top: 20px;
+
+}
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    width: 25%;
+    height: 2em;
+    margin: 8px;
+    background: #FFFFFF;
+    border-radius: 61.5px;
+    padding-left: 20px;
+    font-size: 2em;
+
+}
+
+input::placeholder{
+    color: #161616;
+    font-weight: 400;
+    text-align: left;
+}
+
+button {
+    width: 25%;
+    margin: 8px;
+    height: 2em;
+    background:#30BFF5;
+    border-radius: 61.5px;
+    font-size: 1.7em;
+    color: white;
+}
+
+h2{
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    width: 25%;
+    margin: 0 auto;
+    
+}
