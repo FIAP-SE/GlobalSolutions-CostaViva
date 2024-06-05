@@ -16,6 +16,7 @@ export default function ProjectHeader() {
                 </div>
                 <div className="blv-projeto-header-nav">
                     <nav>
+                        <Link className="blv-projeto-nav" to={"/projeto"}>Home</Link>
                         <Link className="blv-projeto-nav" to={"/registrar"}>Registrar</Link>
                         <Link className="blv-projeto-nav" to={"/encontrar"}>Encontrar</Link>
                         <Link className="blv-projeto-nav" to={"/sobre"}>Sobre</Link>

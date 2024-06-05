@@ -1,6 +1,5 @@
 import Footer from "../../../components/Footer";
 import ProjectHeader from "../../../components/ProjectHeader";
-import AboutPage from "../../../components/AboutPage";
 import './styles.css';
 
 export default function About() {
@@ -9,7 +8,7 @@ export default function About() {
         <>
             <main>
                 <ProjectHeader />
-                <AboutPage />
+        
                 <Footer />
             </main>
         </>

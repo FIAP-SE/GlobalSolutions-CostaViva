@@ -9,20 +9,20 @@ export default function CardLoja() {
         <div>
             <div className="blv-loja-grid">
                 <div className="blv-loja-container">
-                    <Link to="/loja" className="card-link">
+                    <Link to="/produto/1" className="card-link">
                         <div className="blv-loja-imagem">
                             <img src={chaveiroImg} alt="chaveiro" />
                         </div>
                         <div className="blv-nomevalor">
                             <p>Chaveiro de baleia</p>
-                            <h6><span>R$</span>140,00</h6>
+                            <h6><span>R$</span>14,00</h6>
                         </div>
                     </Link>
                 </div>
                 <div className="blv-loja-container">
-                    <Link to="/loja" className="card-link">
+                    <Link to="/produto/5" className="card-link">
                         <div className="blv-loja-imagem">
-                            <img src={livro1Img} alt="chaveiro" />
+                            <img src={livro1Img} alt="livro" />
                         </div>
                         <div className="blv-nomevalor">
                             <p>Livro Whales</p>
@@ -31,13 +31,13 @@ export default function CardLoja() {
                     </Link>
                 </div>
                 <div className="blv-loja-container">
-                    <Link to="/loja" className="card-link">
+                    <Link to="/produto/6" className="card-link">
                         <div className="blv-loja-imagem">
-                            <img src={livro2Img} alt="chaveiro" />
+                            <img src={livro2Img} alt="livro" />
                         </div>
                         <div className="blv-nomevalor">
-                            <p>Livro o conto das baleias</p>
-                            <h6><span>R$</span>140,00</h6>
+                            <p>Livro o conto da baleia</p>
+                            <h6><span>R$</span>145,00</h6>
                         </div>
                     </Link>
                 </div>

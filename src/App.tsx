@@ -21,8 +21,8 @@ export default function App() {
         <Route path="/propostas" element={<Proposal />} />
         <Route path="/projeto" element={<HomeProject />} />
         <Route path="/carrinho" element={<Cart />} />
-        <Route path="/loja" element={<Store/>} />
-        <Route path="/produto" element={<ProductDetails/>} />
+        <Route path="/loja" element={<Store />} />
+        <Route path="/produto/:id" element={<ProductDetails />} />
         <Route path="/compra_confirmada" element={<PurchaseConfirmed />} />
         <Route path="/sobre" element={<About />} />
       </Routes>
