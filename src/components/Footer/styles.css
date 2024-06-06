@@ -1,6 +1,7 @@
 footer {
     padding: 30px 80px 20px 80px;
     border-bottom: 40px solid #006098;
+    margin-top: 50px;
 }
 
 .blv-footer-container {
@@ -16,4 +17,8 @@ footer {
 
 .blv-footer-container img {
     width: 200px;
+}
+
+.blv-footer-container p {
+    color: black;
 }
