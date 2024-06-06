@@ -83,7 +83,7 @@ export default function ShoppingCart() {
             return;
         }
 
-        navigate("/OrderConfirmed");
+        navigate("/compra_confirmada");
     };
 
     return (

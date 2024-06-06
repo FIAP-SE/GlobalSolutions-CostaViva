@@ -1,29 +1,33 @@
-main {
+.register-page-main {
     background-color: #006098;
 }
 
-h1 {
+.register-page-header {
+    text-align: center;
+}
+
+.register-page-header h1 {
     color: white;
     font-size: 2.5em;
 }
 
-p {
+.register-page-header p {
     color: white;
     font-size: 1.5em;
     margin: 0;
 }
 
-.register {
+.register-page-form-container {
     margin-top: 20px;
-
 }
-form {
+
+.register-page-form {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-input {
+.register-page-input {
     width: 25%;
     height: 2em;
     margin: 8px;
@@ -31,30 +35,28 @@ input {
     border-radius: 61.5px;
     padding-left: 20px;
     font-size: 2em;
-
 }
 
-input::placeholder{
+.register-page-input::placeholder {
     color: #161616;
     font-weight: 400;
     text-align: left;
 }
 
-button {
+.register-page-button {
     width: 25%;
     margin: 8px;
     height: 2em;
-    background:#30BFF5;
+    background: #30BFF5;
     border-radius: 61.5px;
     font-size: 1.7em;
     color: white;
 }
 
-h2{
+.register-page-message {
     color: white;
     font-size: 1.5em;
     text-align: center;
     width: 25%;
     margin: 0 auto;
-    
 }

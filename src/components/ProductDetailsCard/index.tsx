@@ -65,7 +65,9 @@ const CardProductDetail: React.FC<Props> = ({ product }) => {
                 </ul>
               </div>
             </div>
+            <Link to={"/carrinho"} className='return-link'>
             <button className='buy-button'>COMPRAR</button>
+            </Link>
           </div>
         </div>
       </div>
