@@ -24,3 +24,7 @@ img {
     width: 100%;
     margin: 0 auto;
 }
+
+.about-container{
+    padding-bottom: 2em;
+}
