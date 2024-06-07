@@ -10,7 +10,7 @@ interface Product {
 }
 
 const products: Product[] = [
-  { id: 1, name: "Chaveiro tradicional tema baleia", price: "R$ 14.00", image: "/images/image1.jpeg" },
+  { id: 1, name: "Chaveiro tradicional tema baleia", price: "R$ 14,00", image: "/images/image1.jpeg" },
   { id: 2, name: "Chaveiro de madeira tema baleia", price: "R$ 19,99", image: "/images/image2.jpg" },
   { id: 3, name: "Quebra cabeça tema baleia", price: "R$ 99,99", image: "/images/image3.png" },
   { id: 4, name: "Vaso de plantas tema baleia", price: "R$ 150,80", image: "/images/image4.png" },

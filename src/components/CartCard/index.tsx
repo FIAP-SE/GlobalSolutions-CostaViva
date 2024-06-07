@@ -1,4 +1,6 @@
 import { useState } from "react";
+import chaveiroImg from "../../assets/chaveiro.jpeg";
+import chaveiroMadeiraImg from "../../../public/images/image2.jpg"
 import { useNavigate } from "react-router-dom";
 import "./styles.css";
 
@@ -6,17 +8,17 @@ export default function ShoppingCart() {
     const [products, setProducts] = useState([
         {
             id: 1,
-            name: "Nome do Produto em duas linhas",
-            price: "R$ 109,90",
+            name: "Chaveiro tradicional tema baleia",
+            price: "R$ 14,00",
             quantity: 1,
-            image: "../../../public/assets/insira_imagem_aqui",
+            image: chaveiroImg,
         },
         {
             id: 2,
-            name: "Nome do Produto em duas linhas",
-            price: "R$ 109,90",
+            name: "Chaveiro de madeira tema baleia",
+            price: "R$ 19,99",
             quantity: 1,
-            image: "../../../public/assets/insira_imagem_aqui.jpg",
+            image: chaveiroMadeiraImg,
         },
     ]);
     const navigate = useNavigate();
