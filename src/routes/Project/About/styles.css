@@ -1,0 +1,19 @@
+.blv-sobre-foto img {
+    width: 100%;
+}
+
+.blv-sobre-titulo h1 {
+    color: #0FA3DB;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.blv-texto {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-size: 18px;
+}
