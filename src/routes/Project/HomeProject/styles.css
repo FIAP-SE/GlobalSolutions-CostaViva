@@ -9,8 +9,8 @@
     background-color: rgba(48, 48, 48, 0.4);
     display: flex; 
     justify-content: center;
-    align-items: center; 
-    text-align: center; 
+    align-items: center;
+    text-align: center;
     color: white;
     flex-direction: column;
 }
@@ -33,10 +33,19 @@
     text-align: center;
     color: #0FA3DB;
     font-weight: 400;
+    font-family: 'NATS-Regular', sans-serif;
+    ;
 }
 
 .blv-loja p {
     text-align: center;
     font-size: 16px;
+}
+
+@font-face {
+    font-family: 'NATS-Regular';
+    src: url('../fonts/font.woff2') format('woff2'),
+        url('../fonts/font.woff') format('woff'),
+        url('../../fonts/NATS-Regular.ttf') format('truetype');
 }
 

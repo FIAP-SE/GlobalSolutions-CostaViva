@@ -26,11 +26,11 @@ export default function Home() {
                             Nome do Grupo: Costa Viva
                         </p>
                         <p className="blv-integrantes-nomes">
-                            André Luiz Viana Ribeiro rm553702 <br />
-                            Bárbara Blauth Schmidt rm554124 <br />
-                            Gustavo Henrique de Jesus rm553554 <br />
-                            Sivaldo Stolarz de Lima rm552727 <br />
-                            Paulo Sergio Morais Gonçalves rm553012
+                            André Luiz Viana Ribeiro RM553702 <br />
+                            Bárbara Blauth Schmidt RM554124 <br />
+                            Gustavo Henrique de Jesus RM553554 <br />
+                            Sivaldo Stolarz de Lima RM552727 <br />
+                            Paulo Sergio Morais Gonçalves RM553012
                         </p>
                     </div>
                     <div>

@@ -13,8 +13,8 @@ export default function Study() {
     return (
         <main>
             <AboutProjectHeader/>
-            <AboutProjectInfos 
-                title={"ESTUDOS"} 
+            <AboutProjectInfos
+                title={"ESTUDOS"}
                 description={description}
             />
             <Footer/>

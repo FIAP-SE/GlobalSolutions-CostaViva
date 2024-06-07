@@ -1,15 +1,15 @@
 .blv-section-infos {
     min-height: 429px;
     display: flex;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
 }
 
 .blv-conteudo {
-    max-width: 700px; 
-    text-align: center; 
-    padding: 0 20px; 
-    
+    max-width: 700px;
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom: 71px;
 }
 
 .blv-conteudo h3 {

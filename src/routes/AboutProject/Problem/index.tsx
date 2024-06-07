@@ -14,8 +14,8 @@ export default function Problem() {
     return (
         <main>
             <AboutProjectHeader/>
-            <AboutProjectInfos 
-                title={"PROBLEMAS A SEREM TRATADOS"} 
+            <AboutProjectInfos
+                title={"PROBLEMAS A SEREM TRATADOS"}
                 description={description}
             />
             <Footer />
