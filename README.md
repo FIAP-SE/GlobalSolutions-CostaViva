@@ -1,30 +1,66 @@
-# React + TypeScript + Vite
+<div align="center">
+  <h1> Global Solutions: Costa Viva :whale: </h1>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Como rodar o projeto
 
-Currently, two official plugins are available:
+### Pré-requisitos:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Node.js
+- npm ou Yarn
 
-## Expanding the ESLint configuration
+### Clonando o projeto
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Utilizando o Git Bash ou o próprio terminal da IDE de sua escolha, utilize o comando abaixo para clonar o repositório do projeto:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```
+git clone https://github.com/FIAP-SE/GlobalSolutions-CostaViva.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Instalando as dependências
+
+Abaixo temos os comandos para os gerenciadore npm e Yarn, use <b> apenas um </b> dos seguintes comandos do gerenciador de sua escolha no diretório raiz do projeto para instalar as dependências:
+
+#### Usando npm
+
+```
+npm install
+```
+
+#### Usando Yarn
+
+```
+yarn install
+```
+
+### Executando o projeto
+
+Depois de instalar as dependências, você pode executar o projeto utilizando o comando correspente ao seu gerenciador de pacotes:
+
+#### Usando npm
+
+```
+npm run dev
+```
+
+#### Usando Yarn
+
+```
+yarn run dev
+```
+
+Após a execução do projeto, ele será disponibilizado localmente em sua máquina através do link ``http://localhost:xxxx``.
+
+⚠️ Lembre-se de usar o mesmo gerenciador de pacotes no processo!
+
+Caso queira acessar o site do projeto, ele está disponível [aqui](https://costaviva.netlify.app) no Netlify.
+
+## Integrantes do Grupo
+
+| RM       | Nome                           |
+| -------- | ------------------------------ |
+| RM553702 | André Luiz Viana Ribeiro      |
+| RM554124 | Bárbara Blauth Schmidt        |
+| RM553554 | Gustavo Henrique de Jesus      |
+| RM552727 | Sivaldo Stolarz de Lima        |
+| RM553012 | Paulo Sergio Morais Gonçalves |
